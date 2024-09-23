@@ -2,6 +2,14 @@
 
 This project was made using standard parsing combinators defined in `Parser.hs`. 
 
+### BrainFuck State Machine
+
+A BrainFuck structure is defined as a tuple consisting of a data pointer and a list of integers, which represent the memory data.
+
+```
+type BrainFuck = ( Int , [Int] )
+```
+
 
 
 
